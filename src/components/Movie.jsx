@@ -42,9 +42,8 @@ class Movie extends React.Component {
                     />
                 </div>
                 <div className="movie-info">
-                    <h2>Movie Details</h2>
+                    <h1>{Title}</h1>
                     <div>
-                        <h1>{Title}</h1>
                         <small>Released Date: {Released}</small>
                     </div>
                     <h4>Rating: {imdbRating} / 10</h4>

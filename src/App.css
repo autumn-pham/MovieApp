@@ -86,17 +86,13 @@ form button:active {
     z-index: 1;
 }
 
-.movie-info h2 {
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0 0 10px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-}
-
 .movie-info h1 {
+    text-transform: uppercase;
     font-weight: bold;
     font-size: 36px;
     margin: 20px 0 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 .movie-info h4 {
