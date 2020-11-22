@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import MovieCard from "./Movie"
 
 class SearchBar extends React.Component {
   state = {
@@ -11,7 +12,7 @@ class SearchBar extends React.Component {
       event.preventDefault();
       axios
           .get(
-              `https://www.omdbapi.com/?apikey=756abb2f&s=${
+              `https://www.omdbapi.com/?apikey=e49c5b8c&s=${
                   this.state.searchTerm
               }&plot=full`
           )

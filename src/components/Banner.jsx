@@ -1,11 +1,13 @@
 import React from "react";
-import "./App.css";
 
-function Banner() {
-  return (
-    <div>
-    </div>
-  )
+class Banner extends React.Component {
+  render() {
+    return (
+      <div className="banner">
+        AUTUMN'S OMDB MOVIE APP
+      </div>
+    );
+  }
 }
 
 export default Banner;

@@ -9,7 +9,7 @@ class Movie extends React.Component {
     componentDidMount() {
         axios
             .get(
-                `https://www.omdbapi.com/?apikey=756abb2f&i=${
+                `https://www.omdbapi.com/?apikey=e49c5b8c&i=${
                     this.props.movieID
                 }&plot=full`
             )
