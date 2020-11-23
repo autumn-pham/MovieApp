@@ -1,9 +1,7 @@
 import React from "react";
 import axios from "axios";
-import LikeButton
- from "./LikeButton";
- import DislikeButton
-  from "./DislikeButton";
+import LikeButton from "./LikeButton";
+import DislikeButton from "./DislikeButton";
 
 class MovieCard extends React.Component {
     state = {
@@ -44,7 +42,6 @@ class MovieCard extends React.Component {
                         className="bg-image"
                         style={{ backgroundImage: `url(${Poster})` }}
                     />
-
                 </div>
                 <div className="movie-info">
                     <h1>{Title}</h1>

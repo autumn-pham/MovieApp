@@ -21,7 +21,7 @@ class LikeButton extends React.Component {
             className="button"
             onClick={this.addLike}
           >
-            <i className="far fa-thumbs-up fa-lg" style={{ color: "#33c3f0" }}></i>
+            <i className="far fa-thumbs-up fa-lg" style={{ color: "black" }}></i>
           </button>
         </div>
       );
@@ -30,7 +30,7 @@ class LikeButton extends React.Component {
       return (
         <div>
           <button className="button" onClick={this.addLike}>
-            <i className="fas fa-thumbs-up fa-lg" style={{ color: "red" }}></i>
+            <i className="fas fa-thumbs-up fa-lg" style={{ color: "#31A0BB" }}></i>
           </button>
         </div>
       );
@@ -39,7 +39,7 @@ class LikeButton extends React.Component {
       return (
         <div>
           <button className="button" onClick={this.addLike}>
-            <i className="fas fa-thumbs-up fa-lg" style={{ color: "red" }}></i>{" "}
+            <i className="fas fa-thumbs-up fa-lg" style={{ color: "#31A0BB" }}></i>{" "}
             {likes}
           </button>
         </div>

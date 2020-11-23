@@ -21,7 +21,7 @@ class DislikeButton extends React.Component {
             className="button"
             onClick={this.addDislike}
           >
-            <i className="far fa-thumbs-down fa-lg" style={{ color: "#33c3f0" }}></i>
+            <i className="far fa-thumbs-down fa-lg" style={{ color: "black" }}></i>
           </button>
         </div>
       );
@@ -30,7 +30,7 @@ class DislikeButton extends React.Component {
       return (
         <div>
           <button className="button" onClick={this.addDislike}>
-            <i className="fas fa-thumbs-down fa-lg" style={{ color: "red" }}></i>
+            <i className="fas fa-thumbs-down fa-lg" style={{ color: "#C81D32" }}></i>
           </button>
         </div>
       );
@@ -39,7 +39,7 @@ class DislikeButton extends React.Component {
       return (
         <div>
           <button className="button" onClick={this.addDislike}>
-            <i className="fas fa-thumbs-down fa-lg" style={{ color: "red" }}></i>{" "}
+            <i className="fas fa-thumbs-down fa-lg" style={{ color: "#C81D32" }}></i>{" "}
             {dislikes}
           </button>
         </div>
