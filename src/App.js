@@ -7,7 +7,7 @@ import SearchBar from "../src/components/SearchBar";
 class App extends React.Component {
   render() {
     return (
-      <div className="container">
+      <div className="container-fluid">
         <Banner/>
         <SearchBar/>
         <MovieCard/>

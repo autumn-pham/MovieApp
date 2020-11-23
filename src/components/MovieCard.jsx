@@ -24,6 +24,7 @@ class MovieCard extends React.Component {
     render() {
         const {
             Title,
+            Director,
             Released,
             Genre,
             Plot,
@@ -46,16 +47,16 @@ class MovieCard extends React.Component {
                 <div className="movie-info">
                     <h1>{Title}</h1>
                     <div>
-                        <small>Released Date: {Released}</small>
+                        <small>Director(s): {Director} <br/>Released Date: {Released}</small>
+                    </div>
+                    <p>{Plot && Plot.substr(0, 350)}</p>
+                    <div className="tags-container">
+                        {Genre && Genre.split(', ').map(g => <span>{g}</span>)}
                     </div>
                     <h4>Rating: {imdbRating} / 10</h4>
                     <div className="btn-container">
                       <LikeButton/>
                       <DislikeButton/>
-                    </div>
-                    <p>{Plot && Plot.substr(0, 350)}</p>
-                    <div className="tags-container">
-                        {Genre && Genre.split(', ').map(g => <span>{g}</span>)}
                     </div>
                 </div>
             </div>

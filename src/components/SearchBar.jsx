@@ -57,8 +57,7 @@ class SearchBar extends React.Component {
                   ))
               ) : (
                   <p>
-                      Couldn't find any movie. Please search again using
-                      another search criteria.
+                      No results. Try searching for another movie.
                   </p>
               )}
           </div>
