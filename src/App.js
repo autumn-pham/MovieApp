@@ -1,9 +1,8 @@
 import React from "react";
 import "./App.css";
 import Banner from "../src/components/Banner";
-import Movie from "../src/components/Movie";
+import MovieCard from "../src/components/MovieCard";
 import SearchBar from "../src/components/SearchBar";
-import axios from "axios";
 
 class App extends React.Component {
   render() {
@@ -11,7 +10,7 @@ class App extends React.Component {
       <div className="container">
         <Banner/>
         <SearchBar/>
-        <Movie/>
+        <MovieCard/>
       </div>
     );
   }

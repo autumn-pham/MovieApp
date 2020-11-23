@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
-import MovieCard from "./Movie"
+import MovieCard
+ from "./MovieCard"
 
 class SearchBar extends React.Component {
   state = {

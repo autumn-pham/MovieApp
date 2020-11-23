@@ -1,7 +1,11 @@
 import React from "react";
 import axios from "axios";
+import LikeButton
+ from "./LikeButton";
+ import DislikeButton
+  from "./DislikeButton";
 
-class Movie extends React.Component {
+class MovieCard extends React.Component {
     state = {
         movieData: {}
     };
@@ -40,6 +44,7 @@ class Movie extends React.Component {
                         className="bg-image"
                         style={{ backgroundImage: `url(${Poster})` }}
                     />
+
                 </div>
                 <div className="movie-info">
                     <h1>{Title}</h1>
@@ -47,6 +52,10 @@ class Movie extends React.Component {
                         <small>Released Date: {Released}</small>
                     </div>
                     <h4>Rating: {imdbRating} / 10</h4>
+                    <div className="btn-container">
+                      <LikeButton/>
+                      <DislikeButton/>
+                    </div>
                     <p>{Plot && Plot.substr(0, 350)}</p>
                     <div className="tags-container">
                         {Genre && Genre.split(', ').map(g => <span>{g}</span>)}
@@ -57,4 +66,4 @@ class Movie extends React.Component {
     }
 }
 
-export default Movie;
+export default MovieCard;
