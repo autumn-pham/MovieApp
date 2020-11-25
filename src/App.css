@@ -152,23 +152,25 @@ form button:active {
     padding: 2em;
   }
   .image-container {
-      flex: 5;
+    flex: 5;
   }
 }
 
 @media (max-width: 700px) {
   .image-container {
-     -webkit-clip-path: circle(80% at 45px 70px);
-     clip-path: circle(80% at 45px 70px);
+     -webkit-clip-path: none;
+     clip-path: none;
   }
 }
 
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
   .movie-card-container {
     flex-direction: column;
+    width: 90%;
   }
 
   .image-container {
+    -webkit-clip-path: none;
     clip-path: none;
     flex: 1;
     height: 400px;
@@ -184,4 +186,4 @@ form button:active {
   .movie-info .tags-container, .movie-info p {
     width: 100%;
   }
-}
+} */
