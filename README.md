@@ -8,6 +8,6 @@ Otherwise, access it with this link to the deployed site:
 
 https://createmovienight.herokuapp.com
 
-<!-- 
-![picture](assets/MovieNightSearch.png)
-![picture](assets/MovieSearchResults.png) -->
+
+![picture](src/assets/MovieNightSearch.png)
+![picture](src/assets/MovieSearchResults.png)
