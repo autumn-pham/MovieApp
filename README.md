@@ -2,4 +2,6 @@ Autumn's Movie Database
 
 Single Page Application created with Create React APP and OMDB API.
 
-Download the file and run npm install. 
+To use this app locally, run npm install and then npm start.
+
+Otherwise, access it with this link to the deployed site:
